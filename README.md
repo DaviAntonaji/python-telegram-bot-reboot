@@ -2,18 +2,27 @@
 
 ![License](https://img.shields.io/github/license/DaviAntonaji/python-telegram-bot-reboot?style=flat-square)
 ![Last Commit](https://img.shields.io/github/last-commit/DaviAntonaji/python-telegram-bot-reboot?style=flat-square)
+
+---
+
 ## Descrição
 Este é um Telegram Bot desenvolvido em Python para auxiliar na gestão de infraestrutura. Ele permite que você execute comandos específicos e interaja com seu servidor remotamente por meio do Telegram.
+
+---
 
 ## Funcionalidades
 - **/start**: Inicia o bot e fornece uma mensagem de boas-vindas.
 - **/reiniciar**: Reinicia o servidor (apenas para usuários autorizados).
 - Autorização baseada em uma lista de permissões.
 
+---
+
 ## Requisitos
 - Python 3.7 ou superior
 - Bibliotecas Python especificadas em `requirements.txt`
 - Um token de API Telegram (obtenha-o registrando seu bot no BotFather do Telegram)
+
+---
 
 ## Instalação
 1. Clone este repositório para o seu servidor.
@@ -26,6 +35,8 @@ Este é um Telegram Bot desenvolvido em Python para auxiliar na gestão de infra
     pip install -r requirements.txt ou pip3 install -r requirements.txt
 
     ```
+
+---
 
 ## Criando um Bot no Telegram usando o BotFather
 
@@ -52,6 +63,7 @@ Neste guia, mostrarei como criar um bot no Telegram usando o BotFather, uma ferr
 1. Após escolher um username válido, o BotFather fornecerá um token de acesso para o seu 
 bot. Anote esse token, pois você precisará dele para autenticar seu bot e fazer solicitações à API do Telegram.
 
+---
 
 ## Execução
 Para rodar o script manualmente, você pode usar o seguinte comando:
@@ -59,8 +71,9 @@ Para rodar o script manualmente, você pode usar o seguinte comando:
     python app.py ou python3 app.py
     ```
 
+---
 
-### Configuração como serviço no Windows Server
+## Configuração como serviço no Windows Server
 Se você deseja executar o script como um serviço no Windows Server, recomendo usar o [NSSM (Non-Sucking Service Manager)](https://nssm.cc/). Você pode seguir os seguintes passos:
 
 1. Faça o download e extraia o NSSM em uma pasta no seu servidor.
@@ -76,7 +89,9 @@ Se você deseja executar o script como um serviço no Windows Server, recomendo 
     nssm start NomeDoServico
     ```
 
-### Configuração com Immortal no Linux
+---
+
+## Configuração com Immortal no Linux
 O Immortal é uma ferramenta para gerenciar processos no Linux. Para executar seu script com o Immortal, siga os passos abaixo:
 
 1. Instale o Immortal no seu sistema. Você pode encontrá-lo [aqui](https://immortal.run/).
@@ -96,5 +111,34 @@ O Immortal é uma ferramenta para gerenciar processos no Linux. Para executar se
 
 O Immortal garantirá que seu script seja executado como um serviço no Linux e seja reiniciado automaticamente em caso de falhas ou reboots.
 
-Aproveite o seu Telegram Bot de Infraestrutura!
+---
+
+## Como Usar o Bot
+1. Inicie uma conversa com o seu bot no Telegram, pesquisando-o pelo nome de usuário que você definiu durante a criação.
+2. Use o comando /start para receber uma mensagem de boas-vindas e obter informações sobre as funcionalidades disponíveis.
+3. Se você tiver permissão, use o comando /reiniciar para reiniciar o servidor.
+4. Se você não tiver permissão, entre em contato com um administrador para obter autorização.
+
+---
+
+## Contribuição
+Se você quiser contribuir para este projeto, siga estas etapas:
+
+1. Faça um fork do repositório.
+2. Clone o fork para o seu ambiente de desenvolvimento local.
+3. Crie uma branch para a sua contribuição: `git checkout -b minha-contribuicao`
+4. Faça as alterações desejadas.
+5. Envie suas alterações: `git push origin minha-contribuicao`
+6. Abra um pull request para o repositório original.
+7. Aguarde a revisão e aprovação da sua contribuição.
+
+---
+
+## Suporte
+Se você encontrar problemas ou tiver dúvidas sobre o uso deste bot, sinta-se à vontade para abrir uma [issue](https://github.com/DaviAntonaji/python-telegram-bot-reboot/issues) neste repositório.
+
+---
+
+## Licença
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
 
