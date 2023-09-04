@@ -71,9 +71,8 @@ Para rodar o script manualmente, você pode usar o seguinte comando:
     python app.py ou python3 app.py
     ```
 
----
 
-## Configuração como serviço no Windows Server
+### Configuração como serviço no Windows Server
 Se você deseja executar o script como um serviço no Windows Server, recomendo usar o [NSSM (Non-Sucking Service Manager)](https://nssm.cc/). Você pode seguir os seguintes passos:
 
 1. Faça o download e extraia o NSSM em uma pasta no seu servidor.
@@ -91,7 +90,7 @@ Se você deseja executar o script como um serviço no Windows Server, recomendo 
 
 ---
 
-## Configuração com Immortal no Linux
+### Configuração com Immortal no Linux
 O Immortal é uma ferramenta para gerenciar processos no Linux. Para executar seu script com o Immortal, siga os passos abaixo:
 
 1. Instale o Immortal no seu sistema. Você pode encontrá-lo [aqui](https://immortal.run/).
