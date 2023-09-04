@@ -1,5 +1,7 @@
 # Assistente de Infraestrutura Telegram Bot
 
+![License](https://img.shields.io/github/license/DaviAntonaji/python-telegram-bot-reboot?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/DaviAntonaji/python-telegram-bot-reboot?style=flat-square)
 ## Descrição
 Este é um Telegram Bot desenvolvido em Python para auxiliar na gestão de infraestrutura. Ele permite que você execute comandos específicos e interaja com seu servidor remotamente por meio do Telegram.
 
@@ -24,8 +26,6 @@ Este é um Telegram Bot desenvolvido em Python para auxiliar na gestão de infra
     pip install -r requirements.txt ou pip3 install -r requirements.txt
 
     ```
-
-
 
 ## Criando um Bot no Telegram usando o BotFather
 
@@ -85,7 +85,7 @@ O Immortal é uma ferramenta para gerenciar processos no Linux. Para executar se
     cmd: python3 /caminho/para/app.py
     cwd: /caminho/para/pasta/do/projeto
     log:
-    file: /caminho/para/arquivo_de_log.log
+        file: /caminho/para/arquivo_de_log.log
     ```
     Certifique-se de substituir /caminho/para/app.py, /caminho/para/pasta/do/projeto e /caminho/para/arquivo_de_log.log pelos caminhos corretos.
 3. Execute seu script com o Immortal:
